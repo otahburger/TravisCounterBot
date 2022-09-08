@@ -3,7 +3,7 @@ import telebot
 memes = 0
 complains = 0
 
-API_KEY = 5713675165:AAEtWebqoO7j5lCzJvLf6j_a2L7g_eQzYFk
+API_KEY = '5713675165:AAEtWebqoO7j5lCzJvLf6j_a2L7g_eQzYFk'
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['meme'])
